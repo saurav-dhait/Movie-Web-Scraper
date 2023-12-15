@@ -47,6 +47,21 @@ If you encounter any issues, consider checking the following:
 - Verify that the tags are separated by spaces and are valid genres.
 - Check for any typos in the tags.
 
+## Future
+As you know, Web scraping programs are bound get redundant if there is a change in the website. 
+So if that happens make sure to add necessary changes to `main.py`.
+
+1. The HTML div is selected with following line in `main.py`.
+   ```bash
+    # class name for scraping
+    class_div = "ipc-metadata-list-summary-item"
+    ```
+2. The URL is obtained by the following line.
+   ```bash
+    # class name for scraping
+    driver.get(f"https://www.imdb.com/search/title/?title_type=feature&genres={tags}&release_date=,{date}")
+    ```
+
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
