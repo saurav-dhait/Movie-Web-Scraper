@@ -20,7 +20,7 @@ def scrape(tags):
     class_div = "ipc-metadata-list-summary-item"
     # connecting to the site in headful mode
     driver.minimize_window()
-    # driver.set_window_size(1920, 1080)
+    # Getting url
     driver.get(f"https://www.imdb.com/search/title/?title_type=feature&genres={tags}&release_date=,{date}")
 
     WebDriverWait(driver, 10).until(
