@@ -60,7 +60,7 @@ So if that happens make sure to add necessary changes to `main.py`.
 3. The URL is obtained by the following line in `main.py`.
    
    ```bash
-    # class name for scraping
+    # Getting url
     driver.get(f"https://www.imdb.com/search/title/?title_type=feature&genres={tags}&release_date=,{date}")
     ```
 
