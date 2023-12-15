@@ -57,7 +57,7 @@ So if that happens make sure to add necessary changes to `main.py`.
     # class name for scraping
     class_div = "ipc-metadata-list-summary-item"
     ```
-3. The URL is obtained by the following line.
+3. The URL is obtained by the following line in `main.py`.
    
    ```bash
     # class name for scraping
