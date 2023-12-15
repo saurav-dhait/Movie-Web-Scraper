@@ -12,7 +12,7 @@ This Python script uses Selenium to scrape IMDb for movie recommendations based 
 1. Clone the repository:
 
     ```bash
-    git clonehttps://github.com/shrey141102/PythonProjects.git
+    https://github.com/saurav-dhait/Movie-Web-Scraper.git
     ```
 
 2. Install dependencies:
@@ -24,7 +24,7 @@ This Python script uses Selenium to scrape IMDb for movie recommendations based 
 3. Download ChromeDriver:
 
     - It is already included in the repository
-    - Link for chromedriver if you want manually download: https://sites.google.com/chromium.org/driver/
+    - Link for chromedriver if you want to manually download the driver: https://sites.google.com/chromium.org/driver/
     - Make sure to place the `chromedriver.exe` in the project directory.
 
 ## Usage
