@@ -52,11 +52,13 @@ As you know, Web scraping programs are bound get redundant if there is a change 
 So if that happens make sure to add necessary changes to `main.py`.
 
 1. The HTML div is selected with following line in `main.py`.
+   
    ```bash
     # class name for scraping
     class_div = "ipc-metadata-list-summary-item"
     ```
-2. The URL is obtained by the following line.
+3. The URL is obtained by the following line.
+   
    ```bash
     # class name for scraping
     driver.get(f"https://www.imdb.com/search/title/?title_type=feature&genres={tags}&release_date=,{date}")
